@@ -1,0 +1,83 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.item{
+  color: #2eae65ea;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.navbar{
+  background-color: black;
+  padding: 1rem;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.navbar-hover{
+  background-color: #000;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.hero .button {
+  background-color: rgba(0, 255, 34, 0.783); 
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+  background-color:  rgba(0, 255, 34, 0.783); 
+}
+
+
+.photo-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);  
+  gap: 10px;
+
+}
+
+.photo-grid img {
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+}
+
+.footer {
+  background-color: hsla(0, 0%, 0%, 0.144);
+  text-align: center;
+  padding: 10px;
+}  
